@@ -1,4 +1,22 @@
-# How to launch
+# Digital puzzle
+
+## Technical specifications
+We need to make a digital puzzle where the connecting elements are the first or last TWO digits. To simplify the task, we will use a single-row puzzle where its fragments can be placed only one after the other.
+
+For example, we have the following rows with numbers:
+
+`608017, 248460, 962282, 994725, 177092`
+
+So analyzing the final parts, we can make the following chain:
+
+`248460 & 608017 & 177092 -> 2484(60)80(17)7092`
+
+Thus, the largest sequence and the answer will be: `24846080177092`
+ 
+The input text file has 142 fragments, which must consist only of numbers! Determine the largest (longest) sequence for these fragments.
+And each fragment must be used only 1 time.
+
+## The solution and its launch
 
 1. Download Python 
 
